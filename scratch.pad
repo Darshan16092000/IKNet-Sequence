@@ -1,0 +1,17 @@
+cd /cmillerd/Projects/Aria/ik_net
+
+watch -n 0.5 nvidia-smi
+
+
+apt install -y libosmesa6-dev libgl1-mesa-glx libglapi-mesa  
+
+export LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libffi.so.7:$LD_PRELOAD"
+
+
+export BATCH_SIZE=64
+
+ 
+
+cd /cmillerd/Projects/Aria/ik_net
+
+BATCH_SIZE=72 python3 train.py
