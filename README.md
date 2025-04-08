@@ -1,4 +1,4 @@
-# IKNet-Develop: Enhanced Sequence-Based 3D Hand Pose Estimation
+# IKNet-Sequence: Enhanced Sequence-Based 3D Hand Pose Estimation
 
 ## Overview
 IKNet-Develop is an enhanced version of the base IKNet model, developed as part of **Project Aria** at **Chris10M/Aria**. This improved model is specifically designed to handle sequence data (motion history) for predicting joint rotations in 3D hand pose estimation. The model incorporates novel techniques for interpreting the results, including **attention maps** and **skeleton visualizations**, to provide better insights into its predictions.
